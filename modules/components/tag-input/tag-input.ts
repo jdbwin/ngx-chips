@@ -1,3 +1,8 @@
+/**
+ * @file             : tag-input.ts
+ * Date              : 25.08.2022
+ * Last Modified Date: 25.08.2022
+ */
 // angular
 import {
     Component,
@@ -50,7 +55,7 @@ const CUSTOM_ACCESSOR = {
 };
 
 @Component({
-    selector: 'tag-input',
+    selector: 'ngx-chips-tag-input',
     providers: [CUSTOM_ACCESSOR],
     styleUrls: ['./tag-input.style.scss'],
     templateUrl: './tag-input.template.html',
